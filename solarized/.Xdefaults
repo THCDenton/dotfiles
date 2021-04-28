@@ -1,0 +1,54 @@
+! $OpenBSD: dot.Xdefaults,v 1.3 2014/07/10 10:22:59 jasper Exp $
+
+XTerm*loginShell:true
+XTerm*loginShell: true
+
+XTerm*faceName: scientifica
+XTerm*faceSize: 10
+
+!Background & foreground
+XTerm*background: #002B36
+XTerm*foreground: #D2D2D2
+XTerm*borderColor: #343434
+
+!Turning off scrollbar
+XTerm*scrollBar:  off
+
+!Starting up with a geometry
+XTerm*vt100*geometry:   88x24
+
+!Colors
+!-------------------------
+!black
+XTerm*color0: #073642
+XTerm*color8: #002b36
+
+!red
+XTerm*color1: #dc322f
+XTerm*color9: #cb4b16
+
+!green
+XTerm*color2: #859900
+XTerm*color10:#586e75
+
+!yellow
+XTerm*color3: #b58900
+XTerm*color11: #657b83
+
+!blue
+XTerm*color4: #268bd2
+XTerm*color12: #839496
+
+!magenta
+XTerm*color5: #d33682
+XTerm*color13: #6c71c4
+
+!cyan
+XTerm*color6: #2aa198
+XTerm*color14: #93a1a1
+
+!white
+XTerm*color7: #eee8d5
+XTerm*color15: #fdf6e3
+
+feh --bg-scale ~/Pictures/nord.jpg
